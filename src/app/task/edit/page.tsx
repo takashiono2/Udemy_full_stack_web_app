@@ -1,6 +1,6 @@
-const TaskEditPage = () => {
+const TaskEditPage = ({ params }: { params: { id: string } }) => {
   return (
-    <div>EditPage</div>
+    <div>{params.id}</div>
   )
 }
 
